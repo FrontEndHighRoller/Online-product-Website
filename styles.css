@@ -1,0 +1,153 @@
+:root {
+}
+
+/* JUMBOTRON START */
+
+.jumbotron {
+  display: flex;
+  margin: 6.25rem 5rem 0 5rem;
+  gap: 3.125rem;
+}
+
+.jumbotron-left {
+  flex: 0 1 50%;
+}
+
+.jumbotron-right {
+  flex: 0 1 50%;
+}
+
+.picture__home__pomerian {
+  height: auto;
+  width: 100%;
+}
+
+.jumbotron-h1 {
+  color: #3ba1c9;
+  font-family: "Luckiest Guy", sans-serif;
+  font-size: clamp(1.7rem, 5vw, 5rem);
+  font-weight: 400;
+  line-height: 5.75rem;
+  text-transform: uppercase;
+  margin-bottom: 1.875rem;
+}
+
+.jumbotron-paragraph {
+  font-size: 1.3rem;
+  margin-bottom: 3.75rem;
+}
+
+.jumbotron-atag {
+  margin-left: 1.25rem;
+  text-decoration: none;
+  color: #15587e;
+}
+
+.jumbotron-atag:hover {
+  color: black;
+}
+
+/* JUMBOTRON FINISH */
+
+/* HOTSELLING START */
+.hotselling {
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.hotselling-left {
+  flex: 2;
+}
+
+.hotselling-right {
+  flex: 1;
+}
+
+.hotselling-p {
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 3.125rem;
+}
+
+.hotselling-image {
+  height: auto;
+  width: 100%;
+}
+
+/* HOTSELLING FINISH */
+
+@media screen and (max-width: 55.5em) {
+  /* JUMBOTRON */
+
+  main,
+  .header {
+    padding: 0 0.625rem;
+  }
+
+  .picture__home__pomerian {
+    margin-top: 7.4375rem;
+  }
+
+  .jumbotron {
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    gap: 0;
+  }
+
+  .jumbotron-h1 {
+    line-height: 0;
+  }
+
+  .jumbotron-paragraph {
+    margin-bottom: 1rem;
+  }
+
+  .jumbotron-button {
+    font-size: 1rem;
+  }
+
+  .jumbotron-div-atags {
+    margin: 3.125rem 0;
+  }
+
+  /* JUMBOTRON */
+
+  /* HOT SELLING */
+
+  .hotselling {
+    margin: 5rem 0;
+    flex-direction: column;
+  }
+
+  .hotselling-right {
+    order: -1;
+  }
+
+  .hotselling h1 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  .hotselling-p {
+    font-size: 1.5rem;
+    padding-bottom: 1.5625rem;
+  }
+
+  .hotselling-image {
+    height: auto;
+    width: 100%;
+    order: -1;
+  }
+
+  .hotselling-button {
+    font-size: 1rem;
+    float: left;
+  }
+  /* HOT SELLING */
+
+  /* TESTIMONIALS*/
+}

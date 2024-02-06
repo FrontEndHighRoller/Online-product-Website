@@ -1,0 +1,510 @@
+/* JUMBOTRON **************************************************************************************************************************************************************************************************************/
+
+.jumbotron-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6.25rem 5rem 0 5rem;
+}
+
+.jumbotron-products-right,
+.jumbotron-products-left {
+  flex: 0 0 50%;
+}
+
+.jumbotron-image {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.jumbotron-price {
+  color: #15587e;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133.333%;
+  padding-bottom: 1.25rem;
+}
+
+.jumbotron-quantity {
+  color: #15587e;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 1.25rem;
+}
+
+.jumbotron-div-option-buttons-containers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jumbotron-button-option {
+  flex: 1;
+  background-color: #15587e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron-button-option:not(:last-child) {
+  margin-right: 5px;
+}
+
+.jumbotron-button-option:hover {
+  outline: 3px solid yellow;
+}
+
+.jumbotron-button-option:focus {
+  background-color: #3ba1c9;
+}
+
+.jumbotron-button-option-2::before,
+.jumbotron-button-option-3::before {
+  content: "Save 4£";
+  font-size: 0.9rem;
+  font-weight: 600;
+  position: absolute;
+  top: -1.1875rem;
+  left: 1.75rem;
+  width: 70%;
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  padding: 0;
+  color: black;
+  z-index: -1;
+}
+
+.jumbotron-button-option-3::before {
+  content: "SAVE 15£";
+}
+
+.jumbotron-include {
+  padding: 1.25rem 0;
+  font-size: 0.9375rem;
+  color: #15587e;
+  font-weight: bold;
+}
+
+.jumbotron-inside {
+  font-size: 0.9375rem;
+  color: #15587e;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.include-inside {
+  width: 30px; /* Adjust the width as needed */
+  text-align: right;
+  margin-right: 10px;
+}
+
+.jumbotron-buy-button {
+  border: none;
+  background-color: #ffee00;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.jumbotron-buy-button:hover {
+  background-color: #f8e91489;
+  color: #4e4c4c;
+}
+
+.jumbotron-describtion {
+  margin: 0 80px;
+}
+
+.jumbotron-describtion-p {
+  padding: 1.25rem 0;
+  font-size: 1.9375rem;
+  color: #15587e;
+  font-weight: bold;
+}
+
+/* HOW IT WORKS  **************************************************************************************************************************************************************************************************************/
+
+.how-it-works {
+  display: flex;
+  margin: 5rem;
+  gap: 3.125rem;
+}
+
+.how-it-works-left,
+.how-it-works-right {
+  flex: 0 0 50%;
+}
+
+.how-it-works-image {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+.how-it-works-h1 {
+  color: #3ba1c9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+}
+
+.how-it-works-p {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+  padding: 1.875rem 0;
+  color: #15587e;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+}
+
+.how-it-works-h2 {
+  padding-top: 3.125rem;
+  color: #15587e;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 1.25rem;
+}
+
+.how-it-works-right-image-container {
+  margin-top: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-it-works-right-image {
+  height: auto;
+  width: 19.4375rem;
+}
+
+/* VIDEO ANIMATED **************************************************************************************************************************************************************************************************************/
+
+/* TEXT SECTION ABOVE */
+
+.video-animated-text-section-container {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  margin: 0 80px;
+}
+
+.video-animated-text-section-box {
+  flex: 0 0 33%;
+}
+
+.video-animated-text-section-box:not(:last-child) {
+  border-right: 0.0625rem solid #333;
+}
+
+.video-animated-text-section-icon {
+  display: block;
+  text-align: center;
+  font-size: x-large;
+}
+
+.video-animated-text-section-p {
+  color: #15587e;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5rem;
+  flex: 1;
+  padding: 0.625rem;
+  text-align: center;
+}
+
+/* TEXT SECTION ABOVE - FINISH */
+
+.video-animated-video-container {
+  margin: 1.25rem 5rem;
+}
+
+.video-animated-video {
+  border: 0.3125rem solid #333;
+  border-radius: 0.625rem;
+  width: 100%;
+  height: auto;
+}
+
+/* CALL TO ACTION **************************************************************************************************************************************************************************************************************/
+
+.call-to-action {
+  display: flex;
+  background: url(../assets/bg-call-to-action.png);
+  margin: 5rem 0;
+  padding: 3.125rem;
+}
+
+.call-to-action-left {
+  position: relative;
+  padding-left: 16.0625rem;
+  flex: 1;
+}
+
+.call-to-action-right {
+  flex: 2;
+}
+
+.call-to-action-image {
+  width: 100%;
+  min-width: 200px;
+  height: auto;
+  position: relative;
+  z-index: 3;
+  padding-top: 0.5rem;
+  max-width: 150px;
+}
+
+.hexagon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10.75rem;
+  height: 9.5rem;
+  background-color: #3498db;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border-radius: 3.125rem;
+}
+
+.hexagon2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 13.4375rem;
+  height: 12.3125rem;
+  background-color: #525557;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 3.125rem;
+}
+
+.call-to-action-h1 {
+  font-family: "Metropolis", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 3.75rem;
+}
+
+.button-white {
+  background-color: white;
+  color: #15587e;
+}
+
+.button-white:hover {
+  color: white;
+}
+
+/* PAWS USING SMART DOG CHAT **************************************************************************************************************************************************************************************************************/
+
+.paws-video {
+  display: flex;
+  padding: 2.5rem 5rem;
+  background-color: #f1f8fb;
+  align-items: center;
+}
+
+.paws-video-part {
+  flex: 1;
+}
+
+.video-paws {
+  width: 100%;
+  height: 35.5625rem;
+  object-fit: cover;
+  border: 0.3125rem solid black;
+  border-radius: 0.625rem;
+}
+
+.paws-video-h2 {
+  font-size: 2rem;
+  color: #3ba1c9;
+  align-self: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+.paws-video-h2-span {
+  color: #0d2c3e;
+}
+
+/* MEDIA QUERIES **************************************************************************************************************************************************************************************************************/
+
+@media screen and (max-width: 75em) {
+  /* 1200px*/
+  .video-paws {
+    height: 21.875rem;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  /* 900px*/
+}
+
+@media screen and (max-width: 56.25em) {
+  /*37.5em*/
+  /* 600px*/
+  .jumbotron-products {
+    margin: 3.125rem 0.625rem;
+
+    align-items: flex-start;
+  }
+
+  .jumbotron-image {
+    height: auto;
+    min-width: 13rem;
+  }
+
+  .jumbotron-h1 {
+    font-size: 2rem;
+  }
+
+  .jumbotron-h2 {
+    display: none;
+  }
+
+  .jumbotron-products-div-reviewNprice {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.625rem 0;
+  }
+
+  .jumbotron-price {
+    order: -1;
+    padding: 0;
+    margin-right: 5px;
+  }
+
+  .jumbotron-image-reviews {
+    min-width: 3.125rem;
+    margin-top: -0.1875rem;
+  }
+  .jumbotron-quantity {
+    display: none;
+  }
+
+  .jumbotron-div-option-buttons-containers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+  }
+
+  .jumbotron-button-option {
+    font-size: 0.6rem;
+    padding: 0.4375rem 0.5625rem;
+  }
+
+  .jumbotron-button-option-2::before,
+  .jumbotron-button-option-3::before {
+    display: none;
+  }
+
+  .jumbotron-describtion {
+    margin: 1.25rem;
+  }
+
+  /* HOW IT WORKS  */
+  .how-it-works {
+    flex-direction: column;
+    margin: 1.25rem;
+  }
+
+  .how-it-works-h1 {
+    font-size: 2.25rem;
+  }
+
+  .how-it-works-right-image-container {
+    display: none;
+  }
+
+  .how-it-works-h2 {
+    padding: 0;
+  }
+
+  .how-it-works-h2 {
+    font-size: 1.9rem;
+    padding: 1.25rem 0;
+  }
+
+  .video-animated-text-section-container {
+    flex-direction: column;
+    margin: 0 1.25rem;
+    gap: 1.25rem;
+  }
+
+  .video-animated-text-section-box {
+    border: 0.0625rem solid var(--primary-color);
+    border-radius: 0.625rem;
+    padding: 0.9375rem;
+  }
+
+  .video-animated-video-container {
+    margin: 2.5rem 1.25rem 0 1.25rem;
+  }
+
+  /* CALL TO ACTION */
+
+  .call-to-action {
+    flex-direction: column;
+    margin: 5rem 0 0 0;
+  }
+
+  .call-to-action-left {
+    display: none;
+  }
+
+  .call-to-action-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .call-to-action-h1 {
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+
+  .button-white {
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+
+  /* PAWS VIDEO */
+
+  .paws-video {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .video-paws {
+    min-width: 21.875rem;
+  }
+}

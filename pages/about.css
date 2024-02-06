@@ -1,0 +1,65 @@
+.about {
+  display: flex;
+  align-items: center;
+  padding: 0.625rem 5rem;
+  vertical-align: middle;
+}
+
+.about-left {
+  padding: 5rem 3.875rem 5rem 5rem;
+}
+
+.about-h1 {
+  color: #3ba1c9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.about-h2 {
+  color: #15587e;
+  font-family: "Luckiest Guy", sans-serif;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about-p {
+  padding-top: 3.125rem;
+  color: #0d2c3e;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about-img {
+  padding-right: 12.5rem;
+}
+
+@media screen and (max-width: 75em) {
+  /* 1200px*/
+  .about-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  /* 900px*/
+  .about {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  /* 600px*/
+  .about-left {
+    padding: 5rem 1.25rem;
+  }
+
+  .about-h1 {
+    margin-top: 6.25rem;
+  }
+}
